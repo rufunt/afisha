@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   
+  resources :plays
   root 'plays#index'
 
-  resources :plays
+  
 
   # Example resource route with options:
   #   resources :products do
